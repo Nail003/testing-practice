@@ -5,4 +5,5 @@ export const calculator = {
         if (b === 0) return "Error: Division not possible";
         return a / b;
     },
+    multiply: (a, b) => a * b,
 };
