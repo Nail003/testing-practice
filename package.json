@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Few Functions that I wrote following the TDD philosophy as one of my TOP assignment.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "--watch jest"
   },
   "keywords": [],
   "author": "",
