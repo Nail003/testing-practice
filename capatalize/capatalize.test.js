@@ -2,14 +2,12 @@ import capatalize from "./capatalize";
 
 describe("Capatalization Tests", () => {
     it(`should capatalize the input string`, () => {
-        const input = "Pakistan";
-        const output = "PAKISTAN";
+        let input = "Pakistan";
+        let output = "PAKISTAN";
         expect(capatalize(input)).toBe(output);
-    });
 
-    it(`should capatalize the input string`, () => {
-        const input = "Sargodha";
-        const output = "SARGODHA";
+        input = "Sargodha";
+        output = "SARGODHA";
         expect(capatalize(input)).toBe(output);
     });
 });
